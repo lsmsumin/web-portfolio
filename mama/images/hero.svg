@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF9F5" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+    <linearGradient id="bubbleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86D5C3" />
+      <stop offset="100%" stop-color="#6DC3B0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- Background decorative blobs -->
+  <circle cx="100" cy="300" r="120" fill="#EAF9F5" opacity="0.6" />
+  <circle cx="420" cy="120" r="80" fill="#F0FCFA" opacity="0.8" />
+
+  <!-- Chat Window Mockup -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="50" width="380" height="300" rx="24" fill="#FFFFFF" />
+    <!-- Header of Chat Window -->
+    <path d="M 60 74 C 60 62, 70 50, 84 50 L 416 50 C 428 50, 438 62, 438 74 L 438 100 L 60 100 Z" fill="#F8FFFD" />
+    <line x1="60" y1="100" x2="440" y2="100" stroke="#E5E7EB" stroke-width="1.5" />
+    
+    <!-- Three window dots -->
+    <circle cx="90" cy="75" r="5" fill="#FFAEBE" />
+    <circle cx="105" cy="75" r="5" fill="#FFEAA5" />
+    <circle cx="120" cy="75" r="5" fill="#86D5C3" />
+    
+    <!-- Title -->
+    <text x="250" y="80" font-family="'Pretendard', sans-serif" font-weight="700" font-size="14" fill="#222222" text-anchor="middle">말랑 AI 대화방</text>
+  </g>
+
+  <!-- Chat Bubbles inside Window -->
+  <!-- AI Bubble -->
+  <g transform="translate(90, 120)">
+    <!-- Mascot Avatar -->
+    <circle cx="20" cy="20" r="16" fill="#86D5C3" />
+    <!-- Tiny eyes on avatar -->
+    <circle cx="17" cy="18" r="1.5" fill="#FFFFFF" />
+    <circle cx="23" cy="18" r="1.5" fill="#FFFFFF" />
+    <!-- Speech bubble -->
+    <path d="M 50 5 H 250 C 260 5, 268 13, 268 23 C 268 33, 260 41, 250 41 H 60 L 50 48 Z" fill="#EAF9F5" />
+    <text x="70" y="27" font-family="'Pretendard', sans-serif" font-weight="500" font-size="12" fill="#222222">오늘 면접 연습을 시작해볼까요?</text>
+  </g>
+
+  <!-- User Bubble -->
+  <g transform="translate(90, 190)">
+    <!-- Speech bubble -->
+    <path d="M 50 5 H 230 C 240 5, 240 5, 240 15 L 240 25 C 240 35, 232 41, 222 41 H 40 L 30 48 Z" transform="translate(240, 46) scale(-1, -1)" fill="url(#bubbleGrad)" />
+    <text x="220" y="28" font-family="'Pretendard', sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="end">네, 마케팅 직무 면접 준비할래요!</text>
+  </g>
+
+  <!-- Mascot Peeking from bottom-right of chat window -->
+  <g transform="translate(320, 240)" filter="url(#shadow)">
+    <!-- Mascot Body -->
+    <path d="M 20 80 C 20 30, 45 10, 75 10 C 105 10, 130 30, 130 80 C 130 110, 110 120, 75 120 C 40 120, 20 110, 20 80 Z" fill="#86D5C3" />
+    <!-- Eyes -->
+    <circle cx="60" cy="55" r="7" fill="#222222" />
+    <circle cx="58" cy="52" r="2.5" fill="#FFFFFF" />
+    <circle cx="90" cy="55" r="7" fill="#222222" />
+    <circle cx="88" cy="52" r="2.5" fill="#FFFFFF" />
+    <!-- Cheeks -->
+    <circle cx="48" cy="65" r="8" fill="#FFAEBE" opacity="0.7" />
+    <circle cx="102" cy="65" r="8" fill="#FFAEBE" opacity="0.7" />
+    <!-- Smile -->
+    <path d="M 70 65 Q 75 72, 80 65" stroke="#222222" stroke-width="2" stroke-linecap="round" fill="none" />
+    <!-- Waving hand -->
+    <path d="M 23 85 C 8 80, 5 70, 10 65 C 15 60, 22 75, 23 85 Z" fill="#86D5C3" />
+  </g>
+</svg>

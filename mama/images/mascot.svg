@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <!-- Soft mint gradient for body -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A5E8D8" />
+      <stop offset="100%" stop-color="#6DC3B0" />
+    </linearGradient>
+    <!-- Soft shadow -->
+    <radialGradient id="shadowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0, 18, 15, 0.15)" />
+      <stop offset="100%" stop-color="rgba(0, 18, 15, 0)" />
+    </radialGradient>
+    <linearGradient id="cheekGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFAEBE" />
+      <stop offset="100%" stop-color="#FF8A9F" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="120" cy="215" rx="70" ry="15" fill="url(#shadowGrad)" />
+
+  <!-- Main Body (Cute squishy jelly shape) -->
+  <path d="M 60 120 
+           C 60 60, 90 40, 120 40 
+           C 150 40, 180 60, 180 120 
+           C 180 170, 160 200, 120 200 
+           C 80 200, 60 170, 60 120 Z" 
+        fill="url(#bodyGrad)" />
+
+  <!-- Cute Little Ears/Antennae (representing communication) -->
+  <path d="M 90 45 C 80 30, 85 20, 95 30 Z" fill="#6DC3B0" />
+  <path d="M 150 45 C 160 30, 155 20, 145 30 Z" fill="#6DC3B0" />
+
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <circle cx="100" cy="115" r="10" fill="#222222" />
+  <circle cx="97" cy="111" r="3.5" fill="#FFFFFF" />
+  <circle cx="103" cy="118" r="1.5" fill="#FFFFFF" />
+
+  <!-- Right Eye -->
+  <circle cx="140" cy="115" r="10" fill="#222222" />
+  <circle cx="137" cy="111" r="3.5" fill="#FFFFFF" />
+  <circle cx="143" cy="118" r="1.5" fill="#FFFFFF" />
+
+  <!-- Blushing Cheeks -->
+  <circle cx="85" cy="130" r="12" fill="url(#cheekGrad)" opacity="0.8" />
+  <circle cx="155" cy="130" r="12" fill="url(#cheekGrad)" opacity="0.8" />
+
+  <!-- Happy Mouth -->
+  <path d="M 112 132 Q 120 142, 128 132" stroke="#222222" stroke-width="3" stroke-linecap="round" fill="none" />
+
+  <!-- Cute Hands -->
+  <!-- Left Hand waving -->
+  <path d="M 63 145 C 45 135, 40 125, 48 120 C 55 115, 63 130, 63 145 Z" fill="#86D5C3" />
+  <!-- Right Hand resting -->
+  <path d="M 177 145 C 195 145, 190 155, 182 155 C 174 155, 177 145, 177 145 Z" fill="#86D5C3" />
+</svg>

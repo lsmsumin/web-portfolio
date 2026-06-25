@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="말랑(Malang) - AI 기반 상황별 소통 학습 서비스. AI와의 대화를 통해 다양한 상황별 커뮤니케이션을 말랑하게 연습해 보세요.">
+  <title>말랑(Malang) - AI 기반 상황별 소통 학습 서비스</title>
+  <!-- Pretendard Font CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo">
+        <img src="images/logo.svg" alt="Malang Logo" width="160" height="40">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--active">Home</a></li>
+          <li class="header__nav-item"><a href="#feature" class="header__nav-link">AI 대화</a></li>
+          <li class="header__nav-item"><a href="#scenario" class="header__nav-link">상황별 학습</a></li>
+          <li class="header__nav-item"><a href="#chat-preview" class="header__nav-link">말랑 해석</a></li>
+          <li class="header__nav-item"><a href="#footer" class="header__nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="#download" class="button button--primary">무료 시작하기</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            AI와 함께<br>
+            다양한 상황을<br>
+            <span>말랑하게</span> 연습하세요
+          </h1>
+          <p class="hero__description">
+            회의, 발표, 면접, 고객 응대까지<br>
+            실제 상황을 AI와 연습하고<br>
+            더 자연스러운 표현을 배워보세요.
+          </p>
+          <div class="hero__buttons">
+            <a href="#chat-preview" class="button button--primary">AI 대화 시작하기</a>
+            <a href="#feature" class="button button--secondary">서비스 둘러보기</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img src="images/hero.svg" alt="Malang Chat Hero Illustration" class="hero__image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="feature" class="feature">
+      <div class="feature__container">
+        <div class="section-header">
+          <span class="section-header__tag">Key Features</span>
+          <h2 class="section-header__title">말랑의 주요 기능</h2>
+        </div>
+        <div class="feature__grid">
+          <!-- Card 1 -->
+          <article class="feature__card">
+            <div class="feature__icon-wrapper">
+              <img src="images/icons/ai.svg" alt="AI" class="feature__icon" width="24" height="24">
+            </div>
+            <h3 class="feature__card-title">AI 역할 대화</h3>
+            <p class="feature__card-description">
+              회의, 발표, 고객 응대, 면접 등 다양한 상황을 실제로 연습합니다.
+            </p>
+          </article>
+          <!-- Card 2 -->
+          <article class="feature__card">
+            <div class="feature__icon-wrapper">
+              <img src="images/icons/translation.svg" alt="Translation" class="feature__icon" width="24" height="24">
+            </div>
+            <h3 class="feature__card-title">말랑 해석</h3>
+            <p class="feature__card-description">
+              회의록과 업무 문서를 쉬운 언어로 풀어드립니다.
+            </p>
+          </article>
+          <!-- Card 3 -->
+          <article class="feature__card">
+            <div class="feature__icon-wrapper">
+              <img src="images/icons/recommend.svg" alt="Recommend" class="feature__icon" width="24" height="24">
+            </div>
+            <h3 class="feature__card-title">표현 추천</h3>
+            <p class="feature__card-description">
+              AI가 더 자연스럽고 설득력 있는 표현을 추천합니다.
+            </p>
+          </article>
+          <!-- Card 4 -->
+          <article class="feature__card">
+            <div class="feature__icon-wrapper">
+              <img src="images/icons/quiz.svg" alt="Quiz" class="feature__icon" width="24" height="24">
+            </div>
+            <h3 class="feature__card-title">복습 시스템</h3>
+            <p class="feature__card-description">
+              퀴즈와 복습으로 배운 표현을 기억합니다.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scenario Section -->
+    <section id="scenario" class="scenario">
+      <div class="scenario__container">
+        <div class="section-header">
+          <span class="section-header__tag">Learning Scenarios</span>
+          <h2 class="section-header__title">다양한 상황을 AI와 함께 연습하세요</h2>
+        </div>
+        <div class="scenario__grid">
+          <!-- Card 1 -->
+          <article class="scenario__card">
+            <div class="scenario__icon-wrapper">
+              <img src="images/icons/meeting.svg" alt="Meeting" width="24" height="24">
+            </div>
+            <h3 class="scenario__card-title">회의 발표</h3>
+            <p class="scenario__card-description">회의나 프레젠테이션에서 자신 있고 명확하게 내 의견을 전달하는 화법을 연습합니다.</p>
+          </article>
+          <!-- Card 2 -->
+          <article class="scenario__card">
+            <div class="scenario__icon-wrapper">
+              <img src="images/icons/boss.svg" alt="Boss" width="24" height="24">
+            </div>
+            <h3 class="scenario__card-title">상사 보고</h3>
+            <p class="scenario__card-description">핵심 위주로 두괄식 보고를 하거나, 곤란한 피드백에 자연스럽게 대답하는 대화를 익힙니다.</p>
+          </article>
+          <!-- Card 3 -->
+          <article class="scenario__card">
+            <div class="scenario__icon-wrapper">
+              <img src="images/icons/customer.svg" alt="Customer" width="24" height="24">
+            </div>
+            <h3 class="scenario__card-title">고객 응대</h3>
+            <p class="scenario__card-description">고객의 불만이나 문의 사항에 대해 경청하고 정중하게 해결책을 제시하는 커뮤니케이션을 배웁니다.</p>
+          </article>
+          <!-- Card 4 -->
+          <article class="scenario__card">
+            <div class="scenario__icon-wrapper">
+              <img src="images/icons/interview.svg" alt="Interview" width="24" height="24">
+            </div>
+            <h3 class="scenario__card-title">면접</h3>
+            <p class="scenario__card-description">압박 질문이나 직무 관련 질문에 당황하지 않고 나의 역량을 잘 드러낼 수 있도록 연습합니다.</p>
+          </article>
+          <!-- Card 5 -->
+          <article class="scenario__card">
+            <div class="scenario__icon-wrapper">
+              <img src="images/icons/school.svg" alt="School" width="24" height="24">
+            </div>
+            <h3 class="scenario__card-title">학교 발표</h3>
+            <p class="scenario__card-description">과제 발표나 동아리 소개 시, 청중의 흥미를 유발하고 설득력 있게 전달하는 요령을 배웁니다.</p>
+          </article>
+          <!-- Card 6 -->
+          <article class="scenario__card">
+            <div class="scenario__icon-wrapper">
+              <img src="images/icons/conflict.svg" alt="Conflict" width="24" height="24">
+            </div>
+            <h3 class="scenario__card-title">친구와 갈등</h3>
+            <p class="scenario__card-description">서로 오해가 생겼을 때 감정을 상하지 않고, 내 솔직한 생각과 미안함을 표현하는 대화법을 익힙니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Conversation Preview Section -->
+    <section id="chat-preview" class="chat-preview">
+      <div class="chat-preview__container">
+        <div class="chat-preview__content">
+          <div class="section-header section-header--left">
+            <span class="section-header__tag">Live Preview</span>
+            <h2 class="section-header__title">말랑 AI와 나누는<br>실시간 소통 연습</h2>
+            <p class="section-header__description">
+              어려운 비즈니스 상황도 말랑 캐릭터와 함께 1:1 대화식으로 쉽고 매끄럽게 학습해보세요. 말랑이가 친절하게 가이드해 줍니다.
+            </p>
+          </div>
+        </div>
+        <div class="chat-preview__window">
+          <div class="chat-preview__window-header">
+            <div class="chat-preview__window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span class="chat-preview__window-title">말랑 AI 대화방</span>
+          </div>
+          <div class="chat-preview__body">
+            <!-- AI Bubble -->
+            <div class="chat__bubble chat__bubble--ai">
+              <div class="chat__avatar">
+                <img src="images/mascot.svg" alt="Mascot Avatar" width="32" height="32">
+              </div>
+              <div class="chat__bubble-content">
+                <p>프로젝트 진행 상황을 공유해 주세요.</p>
+              </div>
+            </div>
+            <!-- User Bubble -->
+            <div class="chat__bubble chat__bubble--user">
+              <div class="chat__bubble-content">
+                <p>디자인은 완료되었고 개발은 70% 진행되었습니다.</p>
+              </div>
+            </div>
+            <!-- AI Bubble 2 -->
+            <div class="chat__bubble chat__bubble--ai">
+              <div class="chat__avatar">
+                <img src="images/mascot.svg" alt="Mascot Avatar" width="32" height="32">
+              </div>
+              <div class="chat__bubble-content">
+                <p>좋습니다. 예상 질문도 함께 연습해볼까요?</p>
+              </div>
+            </div>
+          </div>
+          <div class="chat-preview__footer">
+            <div class="chat-preview__quick-replies">
+              <button type="button" class="chat-preview__quick-btn">준비되었습니다.</button>
+              <button type="button" class="chat-preview__quick-btn">다시 설명해주세요.</button>
+              <button type="button" class="chat-preview__quick-btn">예시를 보여주세요.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Flow Section -->
+    <section class="service-flow">
+      <div class="service-flow__container">
+        <div class="section-header">
+          <span class="section-header__tag">How it works</span>
+          <h2 class="section-header__title">체계적인 말랑 학습 플로우</h2>
+        </div>
+        <div class="service-flow__steps">
+          <div class="service-flow__step">
+            <div class="service-flow__step-number">1</div>
+            <h3 class="service-flow__step-title">상황 선택</h3>
+            <p class="service-flow__step-description">연습할 상황을 선택합니다.</p>
+          </div>
+          <div class="service-flow__step-arrow"></div>
+          <div class="service-flow__step">
+            <div class="service-flow__step-number">2</div>
+            <h3 class="service-flow__step-title">AI 대화</h3>
+            <p class="service-flow__step-description">AI와 자유롭게 대화합니다.</p>
+          </div>
+          <div class="service-flow__step-arrow"></div>
+          <div class="service-flow__step">
+            <div class="service-flow__step-number">3</div>
+            <h3 class="service-flow__step-title">말랑 해석</h3>
+            <p class="service-flow__step-description">어려운 표현을 번역합니다.</p>
+          </div>
+          <div class="service-flow__step-arrow"></div>
+          <div class="service-flow__step">
+            <div class="service-flow__step-number">4</div>
+            <h3 class="service-flow__step-title">표현 추천</h3>
+            <p class="service-flow__step-description">더 좋은 대안을 알아봅니다.</p>
+          </div>
+          <div class="service-flow__step-arrow"></div>
+          <div class="service-flow__step">
+            <div class="service-flow__step-number">5</div>
+            <h3 class="service-flow__step-title">피드백</h3>
+            <p class="service-flow__step-description">대화 점수를 평가받습니다.</p>
+          </div>
+          <div class="service-flow__step-arrow"></div>
+          <div class="service-flow__step">
+            <div class="service-flow__step-number">6</div>
+            <h3 class="service-flow__step-title">복습</h3>
+            <p class="service-flow__step-description">퀴즈로 표현을 복습합니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Section -->
+    <section class="review">
+      <div class="review__container">
+        <div class="section-header">
+          <span class="section-header__tag">Reviews</span>
+          <h2 class="section-header__title">사용자들이 들려주는 리얼 후기</h2>
+        </div>
+        <div class="review__grid">
+          <!-- Card 1 -->
+          <article class="review__card">
+            <div class="review__rating">★★★★★</div>
+            <p class="review__text">"회사 미팅이나 발표 때마다 늘 긴장하고 우물쭈물했었는데, 말랑이와 매일 10분씩 롤플레잉하며 대화법을 교정하고 나니 이제 자신감 있게 말할 수 있어요!"</p>
+            <div class="review__user">
+              <span class="review__user-name">김태훈</span>
+              <span class="review__user-info">3년 차 마케터</span>
+            </div>
+          </article>
+          <!-- Card 2 -->
+          <article class="review__card">
+            <div class="review__rating">★★★★★</div>
+            <p class="review__text">"협력사 미팅에서 오고 가는 어려운 표현이나 메일 속 딱딱한 문구를 말랑 해석 기능에 넣었더니, 이해하기 쉬운 말로 바로 번역해줘서 정말 유용해요."</p>
+            <div class="review__user">
+              <span class="review__user-name">이수진</span>
+              <span class="review__user-info">IT 스타트업 기획자</span>
+            </div>
+          </article>
+          <!-- Card 3 -->
+          <article class="review__card">
+            <div class="review__rating">★★★★★</div>
+            <p class="review__text">"면접을 앞두고 다양한 예상 질문을 AI와 집중적으로 연습했는데, 맞춤형 표현 추천 덕분에 면접관들의 칭찬을 받으며 최종 합격할 수 있었습니다."</p>
+            <div class="review__user">
+              <span class="review__user-name">박민아</span>
+              <span class="review__user-info">취업 준비생</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Call to Action -->
+    <aside id="download" class="download">
+      <div class="download__container">
+        <h2 class="download__title">말랑과 함께 대화를 더 말랑하게 만들어보세요!</h2>
+        <p class="download__description">지금 무료로 가입하고 AI 맞춤형 커뮤니케이션 트레이닝을 경험해 보세요.</p>
+        <div class="download__actions">
+          <a href="#" class="button button--primary">무료 시작하기</a>
+          <a href="#" class="button button--secondary">앱 다운로드</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <img src="images/logo.svg" alt="Malang Logo" width="140" height="35" class="footer__logo">
+        <p class="footer__intro">말랑은 AI와 함께 어려운 커뮤니케이션을 해결해 나가는 스마트 파트너입니다. 대화, 이메일, 문서 작성을 자연스럽고 아름답게 연습해 보세요.</p>
+      </div>
+      <div class="footer__menus">
+        <div class="footer__menu-col">
+          <h4 class="footer__menu-title">서비스</h4>
+          <ul class="footer__menu-list">
+            <li><a href="#feature">AI 역할 대화</a></li>
+            <li><a href="#chat-preview">말랑 해석</a></li>
+            <li><a href="#scenario">상황별 학습</a></li>
+          </ul>
+        </div>
+        <div class="footer__menu-col">
+          <h4 class="footer__menu-title">회사</h4>
+          <ul class="footer__menu-list">
+            <li><a href="#">소개</a></li>
+            <li><a href="#">블로그</a></li>
+            <li><a href="#">채용</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__contact">
+        <h4 class="footer__menu-title">Contact</h4>
+        <p>이메일: support@malang.ai</p>
+        <p>전화번호: 1544-0000</p>
+        <p>주소: 서울시 강남구 테헤란로 123</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__bottom-container">
+        <p class="footer__copyright">&copy; 2026 Malang AI. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
